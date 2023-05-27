@@ -1020,12 +1020,22 @@ html,
 body {
     font-size: 18px;
     font-family: sans-serif;
-    color: #222;
+
+    ;
+}
+
+.dark .modal {
+    background-color: grey;
+}
+
+.dark h2 {
+    color: #F1CDB3;
 }
 
 html.dark,
 .dark body {
     background: #3c3c3c;
+    color: #fff;
 }
 
 .dark .products-element {
@@ -1035,6 +1045,7 @@ html.dark,
 
 .dark button {
     border-color: darksalmon;
+    color: #fff;
 }
 
 .dark .back-to-top {
